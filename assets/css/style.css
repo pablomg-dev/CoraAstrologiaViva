@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+    background-color: black;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-clara {
+    color: antiquewhite;
+    background-color: #8F75C1;
+}
+
+.seccion-oscura {
+    color: antiquewhite;
+    background-color: #2E144E;
+}
+
+/* Barra de navegación */
+.navbar {
+    padding: 0.5rem;
+    font-weight: 600;
+    color: antiquewhite;
+    background-color: rgba(143, 117, 193, 0.7);
+    z-index: 1;
+}
+
+.brand {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-item .nav-link {
+    color: antiquewhite;
+}
+
+.nav-link:hover {
+    color: #2E144E;
+}
+
+/* Hero */
+.hero {
+    padding: 40px;
+}
+
+.div-hero {
+    background-color: #2E144E;
+}
+
+/* Notas */
+.notas{
+    padding: 40px;
+}
+
+.notas .columna1 {
+    padding: 20px;
+    border: 2px solid #2E144E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.notas .columna1:hover {
+    color: antiquewhite;
+    background-color: #2E144E;
+    border-color: #8F75C1;
+}
+
+/* Terapias */
+.terapias {
+    padding: 40px;
+}
+
+.terapias .columna2 {
+    padding: 20px;
+    border: 2px solid #8F75C1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+/* Galería */
+.galeria {
+    padding: 40px;
+}
+
+.galeria .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contacto */
+.contacto {
+    padding: 40px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #8F75C1;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: #8F75C1;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: antiquewhite;
+    border: 2px solid #2E144E;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: #2E144E
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #2E144E;
+    padding: 20px;
+}
