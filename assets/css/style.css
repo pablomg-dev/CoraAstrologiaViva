@@ -36,7 +36,6 @@ section {
     font-weight: 600;
     color: antiquewhite;
     background-color: rgba(143, 117, 193, 0.7);
-    z-index: 1;
 }
 
 .brand {
@@ -104,16 +103,8 @@ section {
 }
 
 /* Galería */
-.galeria {
-    padding: 40px;
-}
-
-.galeria .carousel {
-    max-width: 800px;
-}
-
 .carousel-item {
-    height: 500px;
+    margin: 10px 10px 20px 10px;
 }
 
 .carousel-item .container {
