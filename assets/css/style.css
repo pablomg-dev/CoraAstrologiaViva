@@ -103,6 +103,10 @@ section {
 }
 
 /* Galería */
+.galeria {
+    padding: 40px;
+}
+
 .gallery-container {
     width: 90%;
     margin: 40px auto;
