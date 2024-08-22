@@ -103,17 +103,20 @@ section {
 }
 
 /* Galería */
-.carousel-item {
-    margin: 10px 10px 20px 10px;
+.gallery-container {
+    width: 90%;
+    margin: 40px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    gap: 40px;
 }
 
-.carousel-item .container {
+.gallery-container img {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
 }
 
 /* Contacto */
