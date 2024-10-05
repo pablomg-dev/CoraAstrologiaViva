@@ -158,3 +158,16 @@ section {
     color: #2E144E;
     padding: 20px;
 }
+
+/* Boton arriba */
+.boton-arriba {
+    position: fixed;
+    bottom: 1rem;
+    border-top: 2rem;
+    right: 1rem;
+}
+
+.boton-arriba i {
+    font-size: 2rem;
+    color: antiquewhite;
+}
