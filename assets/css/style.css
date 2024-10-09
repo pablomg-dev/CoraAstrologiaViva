@@ -160,14 +160,21 @@ section {
 }
 
 /* Boton arriba */
-.boton-arriba {
+/* #boton-arriba {
+    
+} */
+
+#boton-arriba {
+    display: none;
     position: fixed;
     bottom: 1rem;
     border-top: 2rem;
-    right: 1rem;
-}
-
-.boton-arriba i {
+    right: 2rem;
     font-size: 2rem;
     color: antiquewhite;
+    cursor: pointer;
+}
+
+#boton-arriba:hover {
+    color: burlywood;
 }
