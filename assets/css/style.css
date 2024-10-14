@@ -5,14 +5,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -30,7 +22,12 @@ section {
     background-color: #2E144E;
 }
 
+.hero, .notas, .terapias, .contacto {
+    padding: 40px;
+}
+
 /* Barra de navegación */
+
 .navbar {
     padding: 0.5rem;
     font-weight: 600;
@@ -57,19 +54,7 @@ section {
     color: #2E144E;
 }
 
-/* Hero */
-.hero {
-    padding: 40px;
-}
-
-.div-hero {
-    background-color: #2E144E;
-}
-
 /* Notas */
-.notas{
-    padding: 40px;
-}
 
 .notas .columna1 {
     padding: 20px;
@@ -88,9 +73,7 @@ section {
 }
 
 /* Terapias */
-.terapias {
-    padding: 40px;
-}
+
 
 .terapias .columna2 {
     padding: 20px;
@@ -121,9 +104,6 @@ section {
 }
 
 /* Contacto */
-.contacto {
-    padding: 40px;
-}
 
 .iconos-redes-sociales a {
     width: 50px;
@@ -160,9 +140,6 @@ section {
 }
 
 /* Boton arriba */
-/* #boton-arriba {
-    
-} */
 
 #boton-arriba {
     display: none;
@@ -177,4 +154,18 @@ section {
 
 #boton-arriba:hover {
     color: burlywood;
+}
+
+/* Diseño responsivo */
+
+@media (width >= 768px) {
+    .divHero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .imgHero {
+        margin-left: 1rem;
+    }
 }
