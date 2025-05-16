@@ -139,7 +139,6 @@ section {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 #pablomgdev {
     color: #2E144E;
     text-decoration: none;
@@ -147,35 +146,4 @@ section {
 
 #pablomgdev:hover {
     color: white;
-=======
-/* Boton arriba */
-
-#boton-arriba {
-    display: none;
-    position: fixed;
-    bottom: 1rem;
-    border-top: 2rem;
-    right: 2rem;
-    font-size: 2rem;
-    color: antiquewhite;
-    cursor: pointer;
-}
-
-#boton-arriba:hover {
-    color: burlywood;
-}
-
-/* Diseño responsivo */
-
-@media (width >= 768px) {
-    .divHero {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .imgHero {
-        margin-left: 1rem;
-    }
->>>>>>> 637be4a75a39f61ef5974b0fd7d7e725cb91c6bf
 }
