@@ -158,3 +158,12 @@ section {
     color: #2E144E;
     padding: 20px;
 }
+
+#pablomgdev {
+    color: #2E144E;
+    text-decoration: none;
+}
+
+#pablomgdev:hover {
+    color: white;
+}
