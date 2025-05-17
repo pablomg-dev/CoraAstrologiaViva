@@ -1,4 +1,5 @@
 /* Estilos generales */
+
 body {
     background-color: black;
     color: antiquewhite;
@@ -74,7 +75,6 @@ section {
 
 /* Terapias */
 
-
 .terapias .columna2 {
     padding: 20px;
     border: 2px solid #8F75C1;
@@ -146,4 +146,23 @@ section {
 
 #pablomgdev:hover {
     color: white;
+}
+
+/* Botón ir arriba */
+
+#boton-arriba {
+    font-size: 2.5rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#boton-arriba:hover {
+    opacity: 1;
 }

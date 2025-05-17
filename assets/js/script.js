@@ -1,13 +1,13 @@
-// Mostrar el botón cuando se hace scroll más allá de 500px
-window.onscroll = function() {
+// Mostrar el botón cuando se hace scroll más allá de 900px
+
+window.onscroll = function () {
     mostrarBoton();
 };
 
 function mostrarBoton() {
     const boton = document.querySelector("#boton-arriba");
 
-    // Si el scroll vertical supera los 500px, muestra el botón
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
         boton.style.display = "block";
     } else {
         boton.style.display = "none";
