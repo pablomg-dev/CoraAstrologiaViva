@@ -1,3 +1,4 @@
+
 /* Estilos generales */
 
 body {
@@ -165,4 +166,14 @@ section {
 
 #boton-arriba:hover {
     opacity: 1;
+}
+
+/* Footer links color fix */
+footer a, Footer a, .derechos-de-autor a {
+    color: inherit !important;
+    text-decoration: underline;
+}
+footer a:hover, Footer a:hover, .derechos-de-autor a:hover {
+    color: inherit !important;
+    text-decoration: underline;
 }
